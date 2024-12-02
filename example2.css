@@ -1,0 +1,51 @@
+.custom-card {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow:  4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.card-light {
+    background-color: #B9FF66;
+}
+
+.badge {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.badge-dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.badge-light {
+    background-color: #B9FF66;
+    color: #000;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #000;
+}
+
+.learn-more .arrow {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 1.5rem;
+    transform: rotate(-45deg);
+}
